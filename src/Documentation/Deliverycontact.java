@@ -19,9 +19,9 @@ public final class Deliverycontact extends Doc {
     public String toString() {
         return
                 "\nDeliverycontact\n +" +
-                  "quantityProduct = " + productQuantities +
-                ",\ntypeProduct = '" + typeProduct + '\'' +
-                ",\ndocumentNumber = " + getDocumentNumber() +
-                ",\ndocumentDate = " + documentDate;
+                        "quantityProduct = " + productQuantities +
+                        ",\ntypeProduct = '" + typeProduct + '\'' +
+                        ",\ndocumentNumber = " + getDocumentNumber() +
+                        ",\ndocumentDate = " + documentDate;
     }
 }
